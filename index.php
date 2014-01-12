@@ -1,8 +1,8 @@
 <?php
-<<<<<<< HEAD
-	echo 'estoy editando index.php como chiky';
-=======
-	echo 'estoy editando index.php como master';
->>>>>>> master
+	include_once '../data/db.php';
+	include_once '../class/person.php';
+
+	$oPersone = new cPersona();
+
 
 ?>
